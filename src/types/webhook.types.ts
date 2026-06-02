@@ -1,8 +1,8 @@
 export type EventType = "payment.success" | "payment.failed" | "wallet.payout";
 
 export interface BaseEvent {
-  id: string; // Rate Limiter يعرف مين اللي بيبعت
-  tenantId: string; // Rate Limiter يعرف مين اللي بيبعت
+  id: string;
+  tenantId: string;
   createdAt: string;
 }
 
